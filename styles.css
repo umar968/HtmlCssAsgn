@@ -69,7 +69,7 @@ ul.sidenav li a {
 
 /* Page Title Image */
 /* Featuring and what to expect */
-#featuringExpect h2 {
+.coloredHeading {
   color: red;
 }
 .contributorInfo h4 {
@@ -109,9 +109,13 @@ ul.whatToExpect {
 
 /* Reviews */
 /* Last year */
-#lastYear h3 {
-  color: red;
-  font-size: 130%;
+
+#lastYear h2 {
+  margin-top: 0px;
+}
+
+#lastYear p {
+  padding: 10px;
 }
 #lastYear a {
   color: red;
@@ -121,18 +125,19 @@ ul.whatToExpect {
 
 /* Css for Griding */
 .rowcss {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 .rowcss::after {
   content: "";
   clear: both;
   display: table;
+  padding: 20px;
 }
 
 [class*="colcss-"] {
   float: left;
-  padding: 1px;
-  border: 1px solid red;
+  padding: 10px;
+  /* border: 1px solid red; */
 }
 .colcss-1 {
   width: 8.33%;
