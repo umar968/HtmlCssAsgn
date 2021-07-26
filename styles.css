@@ -7,10 +7,12 @@
   background-color: rgb(230, 207, 207);
   text-align: right;
   justify-content: right;
+  font-size: 100%;
 }
 #headerTimeText {
   text-align: right;
   color: black;
+  font-size: 100%;
 }
 #headerTextDiv {
   text-align: center;
@@ -74,6 +76,7 @@ ul.sidenav li a {
 }
 .contributorInfo h4 {
   color: red;
+  font-size: 100%;
 }
 .contributorImg {
   float: left;
@@ -86,7 +89,7 @@ ul.whatToExpect {
 }
 
 .whatToExpect li {
-  font-size: 150%;
+  font-size: 100%;
 }
 .whatToExpect li span {
   color: red;
@@ -100,7 +103,7 @@ ul.whatToExpect {
 #reviews p {
   padding: 20px;
 }
-#reviews h3 {
+#reviews h4 {
   padding: 20px;
   color: red;
   text-decoration: underline;
@@ -110,10 +113,6 @@ ul.whatToExpect {
 /* Reviews */
 /* Last year */
 
-#lastYear h2 {
-  margin-top: 0px;
-}
-
 #lastYear p {
   padding: 10px;
 }
@@ -122,21 +121,46 @@ ul.whatToExpect {
   text-decoration: underline;
 }
 /* Last year */
+/* Css for sponsors */
+.lable-look {
+  font-size: medium;
+  width: 50px;
+}
 
+.Spon-look {
+  color: red;
+  font-size: 26px;
+}
+.sponsorBgColor {
+  background-color: rgb(234, 235, 238);
+}
+.copyright {
+  float: left;
+  font-size: medium;
+}
+.footer_look {
+  background-color: red;
+}
+.link_look {
+  color: lightcoral;
+}
+
+/* Css for sponsors */
 /* Css for Griding */
 .rowcss {
   /* border: 1px solid black; */
+  padding: 20px;
 }
 .rowcss::after {
   content: "";
   clear: both;
   display: table;
-  padding: 20px;
+  padding: 15px;
 }
 
 [class*="colcss-"] {
   float: left;
-  padding: 10px;
+  padding: 15px;
   /* border: 1px solid red; */
 }
 .colcss-1 {
@@ -180,22 +204,32 @@ ul.whatToExpect {
   [class*="colcss-"] {
     width: 100%;
   }
+  ul.sidenav {
+    padding: 10px;
+  }
   ul.sidenav li a,
   #buyBook a {
     text-align: left;
     float: none;
-    color: black;
-    background-color: white;
+  }
+  .contributorInfo {
+    padding: 5px !important;
   }
   ul.sidenav li a.active {
     color: white;
     background-color: red;
   }
-  .row div {
+  .rowcss div {
     padding: 0px;
     margin: 0px;
   }
   #pageTitle {
     display: none;
+  }
+  .lineDivider {
+    display: none;
+  }
+  .coloredHeading {
+    margin-top: 15px;
   }
 }
