@@ -3,7 +3,7 @@
 }
 
 #headerText {
-  color: red;
+  color: blue;
   background-color: rgb(230, 207, 207);
   text-align: right;
   justify-content: right;
@@ -33,12 +33,12 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a.active {
-  color: red;
+  color: aqua;
 }
 
 li a:hover:not(.active) {
   color: white;
-  background-color: red;
+  background-color: aqua;
 }
 
 ul.sidenav {
@@ -54,7 +54,7 @@ ul.sidenav li a {
 #buyBook a {
   float: right;
   color: white;
-  background-color: red;
+  background-color: lightblue;
 }
 
 /* Page Title Image */
@@ -72,10 +72,10 @@ ul.sidenav li a {
 /* Page Title Image */
 /* Featuring and what to expect */
 .coloredHeading {
-  color: red;
+  color: blue;
 }
 .contributorInfo h4 {
-  color: red;
+  color: aqua;
   font-size: 100%;
 }
 .contributorImg {
@@ -92,7 +92,7 @@ ul.whatToExpect {
   font-size: 100%;
 }
 .whatToExpect li span {
-  color: red;
+  color: aqua;
 }
 /* Featuring and what to expect */
 
@@ -105,7 +105,7 @@ ul.whatToExpect {
 }
 #reviews h4 {
   padding: 20px;
-  color: red;
+  color: blue;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -113,15 +113,11 @@ ul.whatToExpect {
 /* Reviews */
 /* Last year */
 
-#lastYear h2 {
-  /* margin-top: 0px; */
-}
-
 #lastYear p {
   padding: 10px;
 }
 #lastYear a {
-  color: red;
+  color: aqua;
   text-decoration: underline;
 }
 /* Last year */
@@ -132,7 +128,7 @@ ul.whatToExpect {
 }
 
 .Spon-look {
-  color: red;
+  color: aqua;
   font-size: 26px;
 }
 .sponsorBgColor {
@@ -143,10 +139,10 @@ ul.whatToExpect {
   font-size: medium;
 }
 .footer_look {
-  background-color: red;
+  background-color: rgb(18, 142, 243);
 }
 .link_look {
-  color: lightcoral;
+  color: aqua;
 }
 
 /* Css for sponsors */
@@ -221,7 +217,7 @@ ul.whatToExpect {
   }
   ul.sidenav li a.active {
     color: white;
-    background-color: red;
+    background-color: aqua;
   }
   .rowcss div {
     padding: 0px;
