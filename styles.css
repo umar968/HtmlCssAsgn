@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+#headerText {
+  color: red;
+  background-color: rgb(230, 207, 207);
+  text-align: right;
+  justify-content: right;
+}
+#headerTimeText {
+  text-align: right;
+  color: black;
+}
+#headerTextDiv {
+  text-align: center;
+}
+/* Navbar Styling */
+
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.sidenav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+ul.sidenav li a.active {
+  color: red;
+}
+
+li a:hover:not(.active) {
+  color: white;
+  background-color: red;
+}
+
+ul.sidenav {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+ul.sidenav li a {
+  float: left;
+  padding: 15px;
+}
+#buyBook a {
+  float: right;
+  color: white;
+  background-color: red;
+}
+
+/* Page Title Image */
+
+#pageTitle {
+  background-image: url(img/pagetitle_home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+  max-width: 100%;
+  object-fit: fill;
+  color: white;
+}
+
+/* Page Title Image */
+/* Featuring and what to expect */
+#featuringExpect h2 {
+  color: red;
+}
+.contributorInfo h4 {
+  color: red;
+}
+.contributorImg {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+ul.whatToExpect {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.whatToExpect li {
+  font-size: 150%;
+}
+.whatToExpect li span {
+  color: red;
+}
+/* Featuring and what to expect */
+
+/* Reviews */
+#reviews {
+  background-color: rgb(230, 207, 207);
+}
+#reviews p {
+  padding: 20px;
+}
+#reviews h3 {
+  padding: 20px;
+  color: red;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* Reviews */
+/* Last year */
+#lastYear h3 {
+  color: red;
+  font-size: 130%;
+}
+#lastYear a {
+  color: red;
+  text-decoration: underline;
+}
+/* Last year */
+
+/* Css for Griding */
+.rowcss {
+  border: 1px solid black;
+}
+.rowcss::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="colcss-"] {
+  float: left;
+  padding: 1px;
+  border: 1px solid red;
+}
+.colcss-1 {
+  width: 8.33%;
+}
+.colcss-2 {
+  width: 16.66%;
+}
+.colcss-3 {
+  width: 25%;
+}
+.colcss-4 {
+  width: 33.33%;
+}
+.colcss-5 {
+  width: 41.66%;
+}
+.colcss-6 {
+  width: 50%;
+}
+.colcss-7 {
+  width: 58.33%;
+}
+.colcss-8 {
+  width: 66.66%;
+}
+.colcss-9 {
+  width: 75%;
+}
+.colcss-10 {
+  width: 83.33%;
+}
+.colcss-11 {
+  width: 91.66%;
+}
+.colcss-12 {
+  width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="colcss-"] {
+    width: 100%;
+  }
+  ul.sidenav li a,
+  #buyBook a {
+    text-align: left;
+    float: none;
+    color: black;
+    background-color: white;
+  }
+  ul.sidenav li a.active {
+    color: white;
+    background-color: red;
+  }
+  .row div {
+    padding: 0px;
+    margin: 0px;
+  }
+  #pageTitle {
+    display: none;
+  }
+}
